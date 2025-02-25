@@ -1,0 +1,65 @@
+# Ignore everything
+*
+*/
+
+# Even if they are in subdirectories - this should come before specific directory rules
+!*/
+
+# But not these files...
+!.gitignore
+!*.py
+!requirements.txt
+!test_cases.csv
+!.devcontainer/**
+
+# ignore directories
+.venv/
+__pycache__/
+.pytest_cache/
+.idea/
+.vscode/
+OLDresults/
+results/
+organized/
+
+# ignore files
+*.log
+*.jsonl
+
+# Virtual environment files
+venv/
+env/
+.env
+
+# Python files
+*.py[cod]
+*$py.class
+*.so
+
+# Log files
+*.log
+logs/
+
+# IDE files
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Build files
+dist/
+build/
+*.egg-info/
+
+# Temporary files
+tmp/
+temp/
+
+# Documentation
+docs/_build/
