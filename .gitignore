@@ -20,7 +20,6 @@ __pycache__/
 .vscode/
 OLDresults/
 results/
-organized/
 
 # ignore files
 *.log
